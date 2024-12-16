@@ -1,2 +1,2 @@
-# network3
-fast clone network3
+# Setup 
+```./setup_network3.sh <email>```
