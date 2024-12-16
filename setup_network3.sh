@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Fix Windows-style line endings if present
+sed -i 's/\r$//' "$0"
+
 # Check input parameters
 if [ -z "$1" ]; then
   echo "Please provide an email as: ./setup_network3.sh <email>"
